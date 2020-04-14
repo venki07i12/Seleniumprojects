@@ -1,0 +1,47 @@
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+		<suite name="TrainingTestSuite" annotations="JDK" thread-count="1">
+    <!--<test name="Test Name ">  
+  		<classes>    
+			 <class name="com.Testng.TestNgExample" />
+			  <class name="com.Testng.SearchTest" />
+			 	
+ 		</classes>
+	    </test>  -->
+	     
+	<!--<parameter name="nlaguage" value="हिन्दी"></parameter>
+		<parameter name="ilaguage" value="English"></parameter>	 -->
+		
+	<!--<parameter name="url" value="http://demo.actitime.com/login.do"></parameter>
+		<parameter name="username" value="admin"></parameter>
+		<parameter name="password" value="manager"></parameter>
+	    
+	      <test name="Testing URL launch on Chrome application"> 
+	      <parameter name="browsername" value="chrome"></parameter> 
+  		<classes>    
+			
+			  <class name="testNG.Passingparametersmultiple" />
+			 	
+ 		</classes>
+ 		 </test> 
+ 		 <test name="Testing URL launch on Firefox application"> 
+	      <parameter name="browsername" value="Firefox"></parameter> 
+  		<classes>    
+			
+			  <class name="testNG.Passingparametersmultiple" />
+			 	
+ 		</classes>
+	    </test> -->
+	    
+	    <!-- <test name="Testing ModularDrivenFramework"> 
+	      <classes>    
+			
+			  <class name="modulardrivenframework.TestcaseExecution" /> -->
+			  
+			  <test name="Handling windows"> 
+	      <classes>    
+			
+			  <class name="practiceSelenium2.Handlingwindow2" />
+			 	
+ 		</classes>
+ 		</test>
+	   </suite>

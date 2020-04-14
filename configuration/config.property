@@ -1,0 +1,7 @@
+chromeDriver = C:\\Users\\venkatesh\\Downloads\\chromedriver.exe
+
+IEDriver = D:\Selenium Testing\MindQ\seleniumprojects\geckodriver.exe
+
+URL = https://selenium.dev/
+
+ExcelPath =
