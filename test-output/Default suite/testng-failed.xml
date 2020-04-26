@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG.ExtendReports">
+      <class name="retryAnalyzer.FailedTestcases">
         <methods>
-          <include name="extendreport"/>
+          <include name="Test1"/>
+          <include name="Test2"/>
         </methods>
-      </class> <!-- testNG.ExtendReports -->
+      </class> <!-- retryAnalyzer.FailedTestcases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
